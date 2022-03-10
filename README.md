@@ -9,4 +9,5 @@
   
 That's it. Publishing to github should work.
 
-![Tux, the Linux mascot](/assets/images/tux.png)
+
+![A cute Maltese doggy.](https://user-images.githubusercontent.com/4535333/157773087-5f8aadc5-9f10-4ca0-a423-b0bd30f73b3a.jpeg)
