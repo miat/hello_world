@@ -8,3 +8,5 @@
 4.      git remote set-url origin https://<personal_access_token>@github.com/<user_name>/<repo_name>.git
   
 That's it. Publishing to github should work.
+
+![Tux, the Linux mascot](/assets/images/tux.png)
