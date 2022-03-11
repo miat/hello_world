@@ -42,3 +42,9 @@ const int ARRAY_SIZE=10;
         my_const.print();
         return 69;
     }
+
+## Measuring overall code size with ARM gcc
+  
+    /Applications/ARM/bin/arm-none-eabi-size main.elf
+    text	   data	    bss	    dec	    hex	filename
+    18296	 408712	  16000	 443008	  6c280	main.elf
