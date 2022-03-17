@@ -20,26 +20,26 @@ https://monkeeworks.com
 
 (source: https://www.educative.io/edpresso/how-to-create-an-n-element-constexpr-array-in-cpp)
 
-#include <iostream>
-const int ARRAY_SIZE=10;
+    #include <iostream>
 
     template <int size>
-    struct BigConstant {
-        int big_array[size];
+    struct BigConstArray {
+        int m_big_array[size];
 
-        constexpr BigConstant() : big_array() {
-            for (int n=0; n<size; ++n) big_array[n] = n;
+        constexpr BigConstArray() : m_big_array() {
+            for (int n=0; n<size; ++n) m_big_array[n] = n;
         }
 
-        void print() const {
-            for(int n=0; n<size; ++n) std::cout << big_array[n] << std::endl;
-        }
+        const int& operator[](std::size_t idx) const {return m_big_array[idx];}
     };
+    const int ARRAY_SIZE=100;
 
-        BigConstant<ARRAY_SIZE> my_const;
+    BigConstArray<ARRAY_SIZE> big_const_array;
 
     int main () {
-        my_const.print();
+    
+        for(int i; i < ARRAY_SIZE; ++i)
+        std::cout << big_const_array[i] << std::endl;
         return 69;
     }
 
