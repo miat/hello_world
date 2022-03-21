@@ -29,6 +29,16 @@ struct ReturnObject : std::coroutine_handle<> {
         void unhandled_exception() { }
     };
     explicit ReturnObject(promise_type::Handle coro) : m_handle(coro) { }
+    ReturnObject(const ReturnObject &) = delete;
+    ReturnObject &operator=(const ReturnObject &) = delete;
+    ReturnObject(ReturnObject &&t) noexcept : m_handle(t.m_handle) { t.m_handle = {}; }
+    ReturnObject &operator=(ReturnObject &&t) noexcept {
+        if (this == &t) return *this;
+        if (m_handle) m_handle.destroy();
+        m_handle = t.m_handle;
+        t.m_handle = {};
+        return *this;
+    }
     void resume() { m_handle.resume(); }
     void destroy() { m_handle.destroy(); }
 };
