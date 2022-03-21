@@ -1,3 +1,7 @@
+// basic_coroutine.hpp
+// Coroutine handle made available to caller.
+// get_return_object() to create handle from the promise
+// instance.
 #include <iostream>
 #include <coroutine>
 
