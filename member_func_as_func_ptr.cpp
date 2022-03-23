@@ -1,3 +1,5 @@
+// Reference: https://stackoverflow.com/questions/1485983/calling-c-member-functions-via-a-function-pointer
+
 #include <iostream>
 
 class Animal
