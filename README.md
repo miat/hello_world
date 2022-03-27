@@ -10,9 +10,9 @@
 
 ## Pushing existing new repo to github
 
-1.    git remote add origin https://<personal_access_token>@github.com/<user_name>/<repo_name>.git
-2.    git branch -M main
-3.    push -u origin main
+    git remote add origin https://<personal_access_token>@github.com/<user_name>/<repo_name>.git
+    git branch -M main
+    push -u origin main
 
 
 ![A cute Maltese doggy.](https://user-images.githubusercontent.com/4535333/157773087-5f8aadc5-9f10-4ca0-a423-b0bd30f73b3a.jpeg)
