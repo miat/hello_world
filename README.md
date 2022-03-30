@@ -1,5 +1,9 @@
 # hello_world
 
+## python3 execute script
+
+    exec(open("file.py").read())
+
 ## compiler flags
 
     g++ $(<flags) hello.cpp -ohello 
