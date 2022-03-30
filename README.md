@@ -1,9 +1,14 @@
 # hello_world
 
+## compiler flags
+
+    g++ $(<flags) hello.cpp -ohello 
+    
+(flags = local text file with compiler flag per line)
+
 ## Syncing local with github
 
     git remote set-url origin https://<personal_access_token>@github.com/<user_name>/<repo_name>.git
-  
 
 ## Pushing existing new repo to github
 
