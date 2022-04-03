@@ -12,6 +12,7 @@
 
 ## Syncing local with github
 
+    git remote -v #show remotes
     git remote set-url origin https://<personal_access_token>@github.com/<user_name>/<repo_name>.git
 
 ## Pushing existing new repo to github
