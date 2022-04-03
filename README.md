@@ -23,15 +23,14 @@
     
 (flags = local text file with compiler flag per line)
 
-![A cute Maltese doggy.](https://user-images.githubusercontent.com/4535333/157773087-5f8aadc5-9f10-4ca0-a423-b0bd30f73b3a.jpeg)
-
---Miat  
-miat@monkeeworks.com  
-https://monkeeworks.com
-
-
 ## Measuring overall code size with ARM gcc
   
     /Applications/ARM/bin/arm-none-eabi-size main.elf
     text	   data	    bss	    dec	    hex	filename
     18296	 408712	  16000	 443008	  6c280	main.elf
+
+![A cute Maltese doggy.](https://user-images.githubusercontent.com/4535333/157773087-5f8aadc5-9f10-4ca0-a423-b0bd30f73b3a.jpeg)
+
+--Miat  
+miat@monkeeworks.com  
+https://monkeeworks.com
