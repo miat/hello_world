@@ -1,0 +1,9 @@
+#ignore files without extension 
+*
+!/**/
+!*.*
+#ignore files without extension 
+
+*.[od]
+.vscode/tasks.json
+little_endian.dSYM/Contents/Info.plist
