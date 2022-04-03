@@ -7,3 +7,4 @@
 *.[od]
 .vscode/tasks.json
 little_endian.dSYM/Contents/Info.plist
+.DS_Store

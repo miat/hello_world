@@ -1,14 +1,5 @@
 # hello_world
 
-## python3 execute script
-
-    exec(open("file.py").read())
-
-## compiler flags
-
-    g++ $(<flags) hello.cpp -ohello 
-    
-(flags = local text file with compiler flag per line)
 
 ## Syncing local with github
 
@@ -20,6 +11,15 @@
     git branch -M main
     push -u origin main
 
+## python3 execute script
+
+    exec(open("file.py").read())
+
+## compiler flags
+
+    g++ $(<flags) hello.cpp -ohello 
+    
+(flags = local text file with compiler flag per line)
 
 ![A cute Maltese doggy.](https://user-images.githubusercontent.com/4535333/157773087-5f8aadc5-9f10-4ca0-a423-b0bd30f73b3a.jpeg)
 
