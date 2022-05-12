@@ -8,7 +8,7 @@
 ## Setting new remote name (origin)
 
     git remote -v #show remotes
-    git remote set-url origin https://<personal_access_token>@github.com/<user_name>/<repo_name>.git
+    git remote set-url origin https://<token>@github.com>/miat/hello_world.git
 
 ## Adding new remote name (origin)
 
