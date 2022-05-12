@@ -15,3 +15,11 @@ Fetch URL shortcut. Have all branches locally.
 Push your master branch to your origin server.
 
     git remote show origin
+
+
+    git tag -a v1.0 -m "my first v1.0 tag"
+    git show v1.0
+    git push origin v1.0
+Annotated Tag. Explicitly sharing tag.
+
+    
