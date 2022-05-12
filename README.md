@@ -1,6 +1,10 @@
 # hello_world
 
+## Cloning
 
+    git remote -v #show remotes
+    git clone https://<personal_access_token>@github.com/<user_name>/<repo_name>.git
+    
 ## Setting new remote name (origin)
 
     git remote -v #show remotes
